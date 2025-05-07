@@ -1,0 +1,9 @@
+<!DOCTYPE libro [
+  <!ELEMENT libro (titulo, autor, editorial, anio_publicacion, genero, sinopsis)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT editorial (#PCDATA)>
+  <!ELEMENT anio_publicacion (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+  <!ELEMENT sinopsis (#PCDATA)>
+]>  
