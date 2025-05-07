@@ -1,0 +1,50 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!--vamos a hacer comentario
+L.MARCAS  HTML,CSS,CVG,XML
+1-Estructura contenido
+2-Agregar estilo
+3-Da formato
+
+NORMALIZACION  ISO Y W3C(internet)
+
+CARACTERISTICAS
+1-Etiquetas estructura y contenido
+2-Texto plano codificacion ASCII,ISO-8859,UTF-8
+3-Independencia DISPOSITIVO
+4-FLEXIBILIDAD
+5-FACIL PROCESAMIENTO
+
+CLASIFICACION DE DOCUMENTOS XML
+NEGOCIOS  BNML(businessnegotiation)BPML(Businessproces)FPML(Finantial)XBRL(ExtensibleINformes)
+CULTURA  SVG(grafics),NewsML(noticias),GOLFML(videojuegos)BULLETML(proyectiles)
+CIENCIA  EML(Emociones)SBML(Biologia)SML(Speech)
+
+ESTRUCTURA
+DECLARACION+ELEMENTOS
+
+EDITOR DE TEXTO PLANO
+VSC CARACTERISTICAS
+Múltiples herramientas de edición
+Ayuda contextual
+Compilación y depuración
+Intellisense-->
+<carta>
+<fecha>20/07/1969</fecha>
+<remitente>Neil Armstrong</remitente>
+<texto>Un pequeño paso para el hombre, un gran salto para la humanidad.</texto>
+<destinatario>Centro Espacial Kennedy</destinatario>
+</carta>
+
+ <Registro>
+3. <Entrada>
+4. <Fecha>22/04/2020</Fecha>
+5. <Hora>12:30</Hora>
+6. <Numero>+34678543373</Numero>
+ 7. </Entrada>
+8. <Salida>
+9. <Fecha>22/04/2020</Fecha>
+10. <Hora>12:45</Hora>
+11. <Numero>+34678542288</Numero>
+12. </Salida>
+13. </Registro>
+
