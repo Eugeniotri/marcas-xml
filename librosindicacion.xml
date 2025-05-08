@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">  
+  <channel>  
+    <title>Libros de Indicacion</title>  
+    <link>http://www.librosindicacion.com</link>  
+    <description>Libros de Indicacion RSS</description>  
+    <language>es</language>  
+    <lastBuildDate>Mon, 20 Sep 2023 12:00:00 +0000</lastBuildDate>  
+    <item>  
+      <title>Libro 1</title>  
+      <link>http://www.librosindicacion.com/libro1</link>  
+      <description>Descripción del libro 1.</description>  
+      <pubDate>Mon, 20 Sep 2023 12:00:00 +0000</pubDate>  
+      <guid isPermaLink="false">libro1</guid>  
+    </item>  
+    <item>  
+      <title>Libro 2</title>  
+      <link>http://www.librosindicacion.com/libro2</link>  
+      <description>Descripción del libro 2.</description>  
+      <pubDate>Mon, 20 Sep 2023 12:00:00 +0000</pubDate>  
+      <guid isPermaLink="false">libro2</guid>  
+    </item>
+    <item>  
+      <title>Libro 3</title>  
+      <link>http://www.librosindicacion.com/libro3</link>  
+      <description>Descripción del libro 3.</description>  
+      <pubDate>Mon, 20 Sep 2023 12:00:00 +0000</pubDate>  
+      <guid isPermaLink="false">libro3</guid>
+    </item> 
+    </channel>  
+</rss>
+<!-- 
+ -->
