@@ -2,15 +2,23 @@
 <!--  vamos a ver expresiones xQuery de un xml
 FILTRADO
 POR ATRIBUTOS
- 1. let $productos := doc(“productos.xml”)//producto    return $productos[@categoria = “Electrónicos”]
+ 1. let $productos := doc(“productos.xml”)//producto    
+ return $productos[@categoria = “Electrónicos”]
+
 POR CONTENIDO   
- let $productos := doc(“productos.xml”)//producto       return $productos[precio > 100]
+ let $productos := doc(“productos.xml”)//producto      
+  return $productos[precio > 100]
+
  POR PREDICADOS
- let $productos := doc(“productos.xml”)//producto       return $productos[categoria = “Electrónicos” and precio > 100]
+ let $productos := doc(“productos.xml”)//producto       
+ return $productos[categoria = “Electrónicos” and precio > 100]
+
  POR POSICION
- let $productos := doc(“productos.xml”)//producto        return $productos[1 to 5]
+ let $productos := doc(“productos.xml”)//producto        
+ return $productos[1 to 5]
+ 
  ORDENAR Y AGRUPAR  
-  
+
  ORDENAR POR PRECIO
  let $productos := doc(“productos.xml”)//producto
 2. for $producto in $productos
