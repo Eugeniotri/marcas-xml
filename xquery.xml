@@ -1,0 +1,54 @@
+<? xml version="1.0" encoding="UTF-8"?>  
+<!--  vamos a ver expresiones xQuery de un xml
+FILTRADO
+POR ATRIBUTOS
+ 1. let $productos := doc(“productos.xml”)//producto    return $productos[@categoria = “Electrónicos”]
+POR CONTENIDO   
+ let $productos := doc(“productos.xml”)//producto       return $productos[precio > 100]
+ POR PREDICADOS
+ let $productos := doc(“productos.xml”)//producto       return $productos[categoria = “Electrónicos” and precio > 100]
+ POR POSICION
+ let $productos := doc(“productos.xml”)//producto        return $productos[1 to 5]
+ ORDENAR Y AGRUPAR  
+  
+ ORDENAR POR PRECIO
+ let $productos := doc(“productos.xml”)//producto
+2. for $producto in $productos
+3. order by $producto/precio ascending
+4. return $producto
+
+ AGRUPAR POR CATEGORIA
+ let $productos := doc(“productos.xml”)//producto
+2. for $producto in $productos
+3. group by $categoria := $producto/@categoria
+4. return $categoria
+
+ORDENAR Y AGRUPAR POR PRECIO Y CATEGORIA
+ let $productos := doc(“productos.xml”)//producto   
+2. for $producto in $productos
+3. order by $producto/precio ascending, $producto/@categoria ascending
+ 
+ -->
+
+  1. <productos>
+2. <producto categoria=”Electrónicos”>
+3. <nombre>Laptop</nombre>
+4. <precio>1200</precio>
+5. </producto>
+6. <producto categoria=”Electrónicos”>
+7. <nombre>Smartphone</nombre>
+8. <precio>800</precio>
+9. </producto>
+10. <producto categoria=”Ropa”>
+11. <nombre>Camiseta</nombre>
+12. <precio>25</precio>
+13. </producto>
+14. <producto categoria=”Ropa”>
+15. <nombre>Pantalón</nombre>
+16. <precio>50</precio>
+17. </producto>
+18. <producto categoria=”Hogar”>
+19. <nombre>Mesa</nombre>
+20. <precio>300</precio>
+21. </producto>
+22. </productos>
