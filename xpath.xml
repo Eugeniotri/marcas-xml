@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!-- vamos a ver epresiones xpath de un xml
+//libro selecciona todos los libros
+//libro/titulo selecciona todos los titulos de los libros
+//raiz/libro selecciona todos los libros dentro de raiz
+//raiz/libro[@id=1] selecciona el libro con id 1
+ ahora los nodos q se puede extraer
+ <raiz> es un nodo de elmento
+ <- esto es un comentario  es un nodo de comentario  
+ <libro id="1">titulo de libro</libro> es un nodo de elemnto con ese atributo 
+ raiz/child::libro seleccionará los elementos<libro> que son hijos directos de <raiz>
+  libro/ancestor::raiz seleccionará el elemento <raiz> que es el ancestro de <libro>
+  libro/attribute::id seleccionará el atributo id del elemento <libro> 
+  
+  ahora predicados
+   //libro[position() = 2] selecciona el segundo
+elemento <libro> en el documento XML
+//libro[@id = 1] selecciona el elemento <libro> con atributo id igual a 1   
+//libro[title() = 'Libro 1'] selecciona el elemento <libro> cuyo título es 'Libro 1'    
+//libro[not(autor = 'Juan Pérez')] selecciona los elementos <libro> cuyo autor no es 'Juan Pérez'
+//libro[autor = 'Juan Pérez' and anio_publicacion > 2000] selecciona los elementos <libro> cuyo autor es 'Juan Pérez' y el año de publicación es mayor que 2000
+//libro[or(genero = 'Ficción', genero = 'Aventura')] selecciona los elementos <libro> cuyo género es 'Ficción' o 'Aventura'
+  
+  -->
+ 
+ 1. <raiz>
+2. <libro id=”1”>
+3. <titulo>Libro 1</titulo>
+4. <autor>Juan Pérez</autor>
+5. </libro>
+6. <libro id=”2”>
+7. <titulo>Libro 2</titulo>
+8. <autor>Ana López</autor>
+9. </libro>
+10. </raiz>
