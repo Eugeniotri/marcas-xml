@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Inputs en HTML</title>
+</head>
+<body>
+    <h1>Formulario de ejemplo</h1>
+    <form action="/enviar" method="post">
+        
+        <!-- Campo de texto -->
+        <label>Nombre:
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+        </label><br><br>
+
+        <!-- Campo numérico -->
+        <label>Edad:
+            <input type="number" name="edad" min="0" max="120">
+        </label><br><br>
+
+        <!-- Selector de color -->
+        <label>Color favorito:
+            <input type="color" name="color">
+        </label><br><br>
+
+        <!-- Selector de fecha -->
+        <label>Fecha de nacimiento:
+            <input type="date" name="fecha_nacimiento">
+        </label><br><br>
+
+        <!-- Subida de archivos -->
+        <label>Subir archivo:
+            <input type="file" name="archivo">
+        </label><br><br>
+
+        <!-- Radio buttons (solo uno puede ser seleccionado) -->
+        <label>Género:</label><br>
+        <input type="radio" name="genero" value="masculino"> Masculino<br>
+        <input type="radio" name="genero" value="femenino"> Femenino<br>
+        <input type="radio" name="genero" value="otro"> Otro<br><br>
+
+        <!-- Checkbox (varios pueden seleccionarse) -->
+        <label>Intereses:</label><br>
+        <input type="checkbox" name="intereses" value="musica"> Música<br>
+        <input type="checkbox" name="intereses" value="deporte"> Deporte<br>
+        <input type="checkbox" name="intereses" value="lectura"> Lectura<br><br>
+
+        <!-- Selector de hora -->
+        <label>Hora de cita:
+            <input type="time" name="hora_cita">
+        </label><br><br>
+
+        <!-- Campo para correo electrónico -->
+        <label>Email:
+            <input type="email" name="email" placeholder="ejemplo@correo.com">
+        </label><br><br>
+
+        <!-- Botones -->
+        <button type="reset">Borrar datos</button>
+        <button type="submit">Enviar datos</button>
+
+    </form>
+</body>
+</html>
