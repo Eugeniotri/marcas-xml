@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agencia>
+  <propiedad id="1">
+    <tipo>Casa</tipo>
+    <ubicacion>
+      <ciudad>Madrid</ciudad>
+      <codigoPostal>28001</codigoPostal>
+    </ubicacion>
+    <precio>350000</precio>
+    <metrosCuadrados>120</metrosCuadrados>
+    <habitaciones>4</habitaciones>
+    <banos>2</banos>
+  </propiedad>
+
+  <propiedad id="2">
+    <tipo>Departamento</tipo>
+    <ubicacion>
+      <ciudad>París</ciudad>
+      <codigoPostal>75002</codigoPostal>
+    </ubicacion>
+    <precio>420000</precio>
+    <metrosCuadrados>95</metrosCuadrados>
+    <habitaciones>3</habitaciones>
+    <banos>1</banos>
+  </propiedad>
+
+  <propiedad id="3">
+    <tipo>Oficina</tipo>
+    <ubicacion>
+      <ciudad>Londres</ciudad>
+      <codigoPostal>NW1 6XE</codigoPostal>
+    </ubicacion>
+    <precio>510000</precio>
+    <metrosCuadrados>150</metrosCuadrados>
+    <habitaciones>5</habitaciones>
+    <banos>2</banos>
+  </propiedad>
+</agencia>
+<!--PONGO AQUI LAS CONSULTAS XPATH
+• Encontrar todas las propiedades en una ciudad específica.
+//Propiedad[ubicacion/ciudad='Madrid']
+• Encontrar todas las propiedades por debajo de un precio específico.
+//Propiedad[precio<400000]
+• Encontrar todas las propiedades que tienen un número específico de habitaciones
+//Propiedad[habitacion = 3]
+Si me pidieran un atributo sería
+//Propiedad[@id=3]-->
